@@ -90,7 +90,7 @@ class personal_cv_resume_Footer_Layout{
 				
 		
 			/* translators: 1: developer website, 2: WordPress url  */
-			$html  .= '<span class="dev_info">'.sprintf( esc_html__( 'Theme : %1$s By aThemeArt', 'personal-cv-resume' ), '<a href="'. esc_url( 'https://athemeart.com/downloads/personal-cv-resume/' ) .'" target="_blank" rel="nofollow">'.esc_html_x( 'Personal CV Resume', 'credit - theme', 'personal-cv-resume' ).'</a>',  '<a href="'.esc_url( __( 'https://wordpress.org', 'personal-cv-resume' ) ).'" target="_blank" rel="nofollow">'.esc_html_x( 'WordPress', 'credit to cms', 'personal-cv-resume' ).'</a>' ).'</span>';
+			$html  .= '<span class="dev_info">'.sprintf( esc_html__( 'Theme : %1$s By %2$s', 'personal-cv-resume' ), '<a href="'. esc_url( 'https://athemeart.com/downloads/personal-cv-resume/' ) .'" target="_blank" rel="nofollow">'.esc_html_x( 'Personal CV Resume', 'theme name', 'personal-cv-resume' ).'</a>',  '<a href="'.esc_url( __( 'https://athemeart.com/', 'personal-cv-resume' ) ).'" target="_blank" rel="nofollow">'.esc_html_x( 'aThemeArt', 'credit to developer', 'personal-cv-resume' ).'</a>' ).'</span>';
 			
 			$html .= '</div>';
 			
